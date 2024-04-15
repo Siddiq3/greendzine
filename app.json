@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "testing",
+    "name": "greendzine",
     "slug": "testing",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/logo.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -15,16 +15,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.siddiqkolimi.testing"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "foregroundImage": "./assets/logo1.png",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.siddiqkolimi.testing"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "aa521dc0-2ada-4b03-8d40-8f5726888964"
+      }
     }
   }
 }
